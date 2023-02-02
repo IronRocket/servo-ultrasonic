@@ -6,7 +6,7 @@ class Ultrasonic{
         unsigned int trigger;
         unsigned int echo;
 
-        void init(int tri, int ech){
+        void init(const int tri, const int ech){
             this->trigger = tri;
             this->echo = ech;
             gpio_init(trigger);
