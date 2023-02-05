@@ -1,8 +1,9 @@
 # Purpose
+
 This library consists of a two libraries that manages servos and another that manages ultrasonic sensors(HC-SR04).
 
-
 # Example using Servo library
+
 ```cpp
 #include "includes/Servo.cpp"
 
@@ -39,6 +40,7 @@ sensor.init(trigger_pin,echo_pin);
 
 
 while (true){
+    //printing the distance in inches
     printf("%d in",sensor.getdistance());
 }
 

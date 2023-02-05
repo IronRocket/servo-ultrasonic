@@ -30,7 +30,7 @@ class Ultrasonic{
                 sleep_us(1);
             }
 
-            return signalon/29/4;
+            return (signalon/29)/4;
 
         }
 
